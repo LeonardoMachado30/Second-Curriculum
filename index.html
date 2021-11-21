@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flávio Leonardo Machado de Pádua</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -14,40 +14,69 @@
 </head>
 
 <body>
-    <section class="container-curricum d-flex">
-        <div class="infoPersonal-container">
+    <main class="container d-flex container-curriculum">
+        <section class="infoPersonal-container">
             <div class="Personal d-flex">
                 <div class="profile-img">
                     <img class="profile-img" src="https://cdn-icons-png.flaticon.com/512/17/17004.png">
                 </div>
-                <div class="h4">FLAVIO LEONARDO MACHADO DE PADUA</div>
-                <div>
-                    <div class="h5">DADOS PESSOAIS</div>
-                    <div>(61) 9 84847214</div>
-                    <div>flmp.leonardo@gmail.com</div>
+                <div class="h4 fw-b">FLAVIO LEONARDO MACHADO DE PADUA</div>
+                <!--DADOS PESSOAIS-->
+                <div class="personalDate">
+                    <div class="h5 fw-b">DADOS PESSOAIS</div>
+                    <div class="personalDate-info fw-b">
+                        <ion-icon name="home-outline"></ion-icon>Brasilia - DF / Gama Leste
+                    </div>
+                    <div class="personalDate-info fw-b">
+                        <ion-icon name="calendar-outline"></ion-icon>19/12/1999
+                    </div>
+                    <div class="personalDate-info">
+                        <a href="https://api.whatsapp.com/send?phone=5561984847214&text=Ola%20FLavio%2C%20vi%20seu%20curriculo%20e%20estou%20entrando%20em%20contato%20com%20voc%C3%AA%20por%20causa%20de%20uma%20vaga%20de%20emprego!"
+                            target="_blank">
+                            <ion-icon name="logo-whatsapp" size="small"></ion-icon>(61) 9 84847214
+                        </a>
+                    </div>
+                    <div class="personalDate-info">
+                        <ion-icon name="mail-outline" size="small"></ion-icon>flmp.leonardo@gmail.com
+                    </div>
                 </div>
-                <div>
-                    <div class="h5">REDES SOCIAIS</div>
-                    <div>FACEBOOK ICON</div>
-                    <div>LINKEDIN ICON</div>
+                <!--REDES SOCIAIS-->
+                <div class="social">
+                    <div class="h5 social-description fw-b">REDES SOCIAIS</div>
+                    <a href="" class="facebook" target="_blank">
+                        <ion-icon name="logo-facebook" size="large"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/flavio-leonardo-ads/" class="linkedin" target="_blank">
+                        <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                    </a>
+                    <a href="https://github.com/LeonardoMachado30" class="github" target="_blank">
+                        <ion-icon name="logo-github" size="large"></ion-icon>
+                    </a>
                 </div>
-                <div style="width: 80%;">
-                    <div class="h5">COMPETENCIAS</div>
+                <!--COMPETENCIAS-->
+                <div style="width: 90%;">
+                    <div class="h5 fw-b">COMPETENCIAS</div>
                     <div id="skills">
                         <!--JS-->
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        <div class="infoJobs-container">
-            <div>a</div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </section>
+        </section>
+        <section class="infoJobs-container">
+            <div>
+                <div class="h5 fw-b">PERFIL</div> 
+                <div>descrição</div>
+            </div>
+            <div>
+                <div class="h5 fw-b">EXPERIENCIA PROFISSIONAL</div>
+                <div>descrição</div>
+            </div>
+            <div>
+                <div class="h5 fw-b">FORMAÇÃO ACADÊMICA</div>
+                <div>descrição</div>
+            </div>
+        </section>
+    </main>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -57,6 +86,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src="/index.js"></script>
 </body>
 
