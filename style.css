@@ -129,3 +129,13 @@ body {
 .fw-b {
     font-weight: bold;
 }
+
+.experience-period{
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+}
+
+.experience-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
