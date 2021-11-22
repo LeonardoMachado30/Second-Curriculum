@@ -139,3 +139,19 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
+
+@media screen and (max-width: 1300px){
+    .container-curriculum{
+        flex-direction: column !important;
+    }
+
+    .infoPersonal-container{
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .infoJobs-container{
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+}
